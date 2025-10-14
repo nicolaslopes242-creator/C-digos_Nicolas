@@ -8,7 +8,7 @@ st.sidebar.image("Logo.png")
 st.sidebar.title('Lopes Imports')
 
 
-bike = ['Bicicleta Caloi aro 29 Elite Carbon Sport','Bicicleta Caloi Andes Aro 26', 'Porsche', 'Mitsubishi', 'Ferrari']
+bike = ['Bicicleta Caloi aro 29 Elite Carbon Sport','Bicicleta Caloi Andes Aro 26', 'bicicleta freeride grau aro 26', 'Bike Santa Cruz V10', 'BIke colli aro 29']
 
 opcao = st.sidebar.selectbox('Escolha a bike que foi alugado', bike)
 
@@ -24,20 +24,20 @@ st.markdown('---')
 dias = st.text_input(f'Por quantos dias a {opcao} foi alugado?')
 km = st.text_input(f'Quantos km você rodou com o {opcao}?')
 
-if opcao == 'Lamborghini':
-    diaria = 5000
+if opcao == 'Bicicleta Caloi aro 29 Elite Carbon Sport':
+    diaria = 797
 
-elif opcao == 'Mustang':
-    diaria = 2000
+elif opcao == 'Bicicleta Caloi Andes Aro 26':
+    diaria = 550
 
-elif opcao == 'Porsche':
-    diaria = 3500
+elif opcao == 'bicicleta freeride grau aro 26':
+    diaria = 650
 
-elif opcao == 'Mitsubishi':
-    diaria = 3415
+elif opcao == 'Bike Santa Cruz V10':
+    diaria = 750
 
-elif opcao == 'Ferrari':
-    diaria = 2950
+elif opcao == 'BIke colli aro 29':
+    diaria = 650
 
 
 
